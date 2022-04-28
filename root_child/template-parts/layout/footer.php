@@ -1,0 +1,101 @@
+<?php
+/**
+ * ****************************************************************************
+ *
+ *   DON'T EDIT THIS FILE
+ *   After update you will lose all changes. Use child theme
+ *
+ *   НЕ РЕДАКТИРУЙТЕ ЭТОТ ФАЙЛ
+ *   После обновления Вы потереяете все изменения. Используйте дочернюю тему
+ *
+ *   https://support.wpshop.ru/docs/general/child-themes/
+ *
+ * *****************************************************************************
+ *
+ * @package root
+ */
+
+
+$footer_class        = ( root_get_option( 'footer_widgets_equal_width' ) ) ? 'site-footer-container--equal-width' : '';
+$is_show_arrow       = 'yes' == root_get_option( 'structure_arrow' );
+$structure_arrow_mob = ( 'yes' == root_get_option( 'structure_arrow_mob' ) ) ? ' data-mob="on"' : '';
+?>
+
+
+<?php do_action( THEME_SLUG . '_before_footer' ); ?>
+
+    <footer id="site-footer" class="site-footer <?php root_site_footer_classes() ?> <?php echo $footer_class ?>" itemscope itemtype="http://schema.org/WPFooter">
+        <div class="site-footer-inner <?php root_site_footer_inner_classes() ?>">
+
+            <?php get_template_part( 'template-parts/layout/footer-widgets' ) ?>
+
+            <div class="footer-bottom">
+                <div class="footer-info">
+                    <?php
+                    $footer_copyright = root_get_option( 'footer_copyright' );
+                    $footer_copyright = str_replace( '%year%', date( 'Y' ), $footer_copyright );
+                    echo $footer_copyright;
+                    ?>
+
+                    <?php
+                    $footer_text = root_get_option( 'footer_text' );
+                    if ( ! empty( $footer_text ) ) echo '<div class="footer-text">' . $footer_text . '</div>';
+                    ?>
+
+                    <?php if ( 'yes' == root_get_option( 'wpshop_partner_enable' ) ) : ?>
+                        <!--noindex-->
+                        <div class="footer-partner">
+                            <?php
+                            wpshop_partner_link( array(
+                                'prefix' => root_get_option( 'wpshop_partner_prefix' ),
+                                'postfix' => root_get_option( 'wpshop_partner_postfix' )
+                            ) );
+                            ?>
+                        </div>
+                        <!--/noindex-->
+                    <?php endif; ?>
+                </div><!-- .site-info -->
+
+              
+
+                <?php
+                $footer_counters = root_get_option( 'footer_counters' );
+                if ( ! empty( $footer_counters ) ) echo '<div class="footer-counters">'. $footer_counters .'</div>';
+                ?>
+            </div>
+        </div><!-- .site-footer-inner -->
+    </footer><!-- .site-footer -->
+<script type="text/javascript">// <![CDATA[
+function toggleMe(a,link){
+var e=document.getElementById(a);
+if(!e)return true;
+if(e.style.display=="none"){
+e.style.display="block"
+//link.innerHTML="Скрыть"
+}
+else{
+e.style.display="none"
+//link.innerHTML="Подробнее"
+}
+return true;
+}
+// ]]></script>
+
+    <?php if ( $is_show_arrow ) { ?>
+        <button type="button" class="scrolltop js-scrolltop"<?php echo $structure_arrow_mob ?>></button>
+    <?php } ?>
+
+<?php do_action( THEME_SLUG . '_after_footer' ); ?>
+
+<script type="text/javascript">// <![CDATA[
+jQuery(document).ready(function(){ jQuery('.spoiler-text').hide() jQuery('.spoiler').click(function(){ jQuery(this).toggleClass("folded").toggleClass("unfolded").next().slideToggle() }) })
+// ]]></script>
+
+<script type="text/javascript">// <![CDATA[
+	jQuery(document).ready(function(){
+		jQuery('.spoiler-text').hide()
+		jQuery('.spoiler').click(function(){
+			jQuery(this).toggleClass("folded").toggleClass("unfolded").next().slideToggle()
+		})
+	})
+// ]]></script>

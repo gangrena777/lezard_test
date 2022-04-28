@@ -1,0 +1,2663 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2021-08-27 16:21+0300\n"
+"PO-Revision-Date: 2021-08-27 16:22+0300\n"
+"Last-Translator: Sergey <support@wpshop.biz>\n"
+"Language-Team: https://wpshop.ru/\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;esc_html__;esc_html_e;esc_html_x;"
+"esc_attr__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: gulp\n"
+
+# @ _s
+#: 404.php:24
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "К сожалению, запрашиваемая страница не существует."
+
+# @ _s
+#: 404.php:27
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Ничего не найдено по данному запросу. Попробуйте воспользоваться поиском "
+"чтобы найти то, что Вам нужно!"
+
+#: 404.php:28 template-parts/content-none.php:35
+#: template-parts/content-none.php:50
+msgid "What can be done?"
+msgstr "Что можно сделать?"
+
+#: 404.php:30
+msgid "Try to use search"
+msgstr "Воспользуйтесь поиском"
+
+#: 404.php:31 template-parts/content-none.php:38
+#: template-parts/content-none.php:53
+#, php-format
+msgid "Go to <a href=\"%1$s\">Homepage</a>."
+msgstr "Перейдите на <a href=\"%1$s\">главную</a> страницу."
+
+#: comments.php:38 inc/customizer/customizer.php:972
+#: inc/customizer/customizer.php:1081 inc/customizer/customizer.php:1170
+#: template-parts/content-single.php:116
+#: template-parts/posts/content-card-one.php:73
+#: template-parts/posts/content-card-square.php:71
+#: template-parts/posts/content-card-without-micro.php:53
+#: template-parts/posts/content-card.php:53
+#: template-parts/posts/content-meta.php:44 template-parts/posts/content.php:54
+#: template-parts/widgets/widget-articles-compact.php:56
+#: template-parts/widgets/widget-articles-normal.php:58
+msgid "Comments"
+msgstr "Комментарии"
+
+#: comments.php:42 comments.php:64
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:45 comments.php:67
+msgid "Older Comments"
+msgstr "Старые комментарии"
+
+#: comments.php:46 comments.php:68
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+#: comments.php:81
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: comments.php:98
+msgid "Comment"
+msgstr "Комментарий"
+
+#: comments.php:100
+msgid "Name"
+msgstr "Имя"
+
+#: comments.php:102
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:104
+msgid "Website"
+msgstr "Сайт"
+
+#: header.php:40
+msgid "Skip to content"
+msgstr "Перейти к контенту"
+
+#: inc/admin.php:51
+msgid "You can familiarize yourself with the documentation on the topic"
+msgstr "С документацией по теме Вы можете ознакомиться"
+
+#: inc/admin.php:51
+msgid "by this link"
+msgstr "по этой ссылке"
+
+#: inc/admin.php:52
+msgid "Appearance and color settings are in the customizer"
+msgstr "Настройки внешнего вида и цветов находятся в кастомайзере"
+
+#: inc/admin.php:52
+msgid "Appearance> Settings"
+msgstr "Внешний вид > Настройки"
+
+#: inc/admin.php:75
+msgid "Basic settings"
+msgstr "Основные настройки"
+
+#: inc/admin.php:78
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+#: inc/admin.php:82
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/admin.php:100
+msgid "Export settings"
+msgstr "Настройки экспорта"
+
+#: inc/admin.php:102
+msgid "Copy this code to any text file to save all settings of this site"
+msgstr ""
+"Скопируйте этот код в любой текстовый файл, чтобы сохранить все настройки "
+"этого сайта"
+
+#: inc/admin.php:106
+msgid "Import settings"
+msgstr "Настройки импорта"
+
+#: inc/admin.php:108
+msgid ""
+"Danger! Old settings will be removed before import! Paste code to this field "
+"and press Save"
+msgstr ""
+"Опасность! Старые настройки будут удалены перед импортом! Вставьте код в это "
+"поле и нажмите Сохранить"
+
+#: inc/admin.php:142
+msgid "Enter your License key that was sent to the e-mail after the purchase."
+msgstr ""
+"Введите лицензионный ключ, который был отправлен на электронную почту после "
+"покупки."
+
+#: inc/admin.php:145
+msgid "Hide license key after activation"
+msgstr "Скрыть лицензионный ключ после активации"
+
+#: inc/admin.php:148
+msgid "You have hidden the license key."
+msgstr "Вы скрыли лицензионный ключ."
+
+#: inc/admin.php:202
+msgid "How to fix it"
+msgstr "Как ее исправить"
+
+#: inc/admin.php:205
+msgid "Activation error"
+msgstr "Ошибка активации"
+
+#: inc/admin.php:207
+msgid "Can't get response from license server"
+msgstr "Не смогли получить ответ от сервера лицензий"
+
+#: inc/comments.php:101
+msgid "author"
+msgstr "автор"
+
+#: inc/comments.php:106
+msgid "in"
+msgstr "в"
+
+#: inc/comments.php:116
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: inc/contact-form.php:19
+msgid "Enter your name"
+msgstr "Введите ваше имя"
+
+#: inc/contact-form.php:26
+msgid "Enter your e-mail"
+msgstr "Введите ваш e-mail"
+
+#: inc/contact-form.php:29
+msgid "Wrong e-mail format"
+msgstr "Не верный адрес"
+
+#: inc/contact-form.php:36
+msgid "Enter subject"
+msgstr "Введите тему"
+
+#: inc/contact-form.php:43
+msgid "Enter message"
+msgstr "Введите сообщение"
+
+#: inc/contact-form.php:54
+msgid "Suspicious activity - are you a robot?"
+msgstr "Подозрительная активность - Вы робот?"
+
+#: inc/contact-form.php:76
+msgid "Your message was successfully sent!"
+msgstr "Ваше сообщение успешно отправлено!"
+
+#: inc/contact-form.php:88
+msgid "Your name"
+msgstr "Ваше имя"
+
+#: inc/contact-form.php:112
+msgid "Subject"
+msgstr "Тема сообщения"
+
+#: inc/contact-form.php:124
+msgid "Message"
+msgstr "Сообщение"
+
+#: inc/contact-form.php:139
+msgid "Send"
+msgstr "Отправить"
+
+#: inc/core/breadcrumbs.php:120 inc/customizer/customizer.php:653
+#: inc/default-options.php:137
+msgid "Home"
+msgstr "Главная"
+
+#: inc/core/sitemap.php:52
+msgid "Pages"
+msgstr "Страницы"
+
+#: inc/core/star-rating.php:78 inc/enqueue.php:67
+msgid "average"
+msgstr "среднее"
+
+#: inc/core/star-rating.php:78 inc/enqueue.php:68
+msgid "from"
+msgstr "из"
+
+#: inc/core/star-rating.php:81
+msgid "No ratings yet"
+msgstr "Пока оценок нет"
+
+#: inc/core/toc.php:120 inc/customizer/customizer.php:1440
+#: inc/default-options.php:130
+msgid "Contents"
+msgstr "Содержание"
+
+#: inc/customizer/customizer.php:16
+msgid "Wood"
+msgstr "Wood"
+
+#: inc/customizer/customizer.php:21
+msgid "Wood 2"
+msgstr "Wood 2"
+
+#: inc/customizer/customizer.php:26
+msgid "Blue waves"
+msgstr "Blue waves"
+
+#: inc/customizer/customizer.php:31
+msgid "Plaid"
+msgstr "Plaid"
+
+#: inc/customizer/customizer.php:36
+msgid "Wallpaper"
+msgstr "Wallpaper"
+
+#: inc/customizer/customizer.php:41
+msgid "Honey"
+msgstr "Honey"
+
+#: inc/customizer/customizer.php:46
+msgid "Wall"
+msgstr "Wall"
+
+#: inc/customizer/customizer.php:51
+msgid "Sea"
+msgstr "Sea"
+
+#: inc/customizer/customizer.php:56
+msgid "Dots"
+msgstr "Dots"
+
+#: inc/customizer/customizer.php:79 inc/customizer/customizer.php:2092
+msgid "One post is big"
+msgstr "Одна запись большая"
+
+#: inc/customizer/customizer.php:80 inc/customizer/customizer.php:2252
+msgid "One post is small"
+msgstr "Одна запись маленькая"
+
+#: inc/customizer/customizer.php:81 inc/customizer/customizer.php:2386
+msgid "Small cards (2 or 3 per line)"
+msgstr "Небольшие карточки (2 или 3 в строке)"
+
+#: inc/customizer/customizer.php:82 inc/customizer/customizer.php:2520
+msgid "Square cards (2 or 3 per line)"
+msgstr "Квадратные карточки (2 или 3 в строке)"
+
+#: inc/customizer/customizer.php:86
+msgid "Right"
+msgstr "Справа"
+
+#: inc/customizer/customizer.php:87
+msgid "Left"
+msgstr "Слева"
+
+#: inc/customizer/customizer.php:88 inc/customizer/customizer.php:976
+#: inc/customizer/customizer.php:1085
+msgid "Do not show"
+msgstr "Не показывать"
+
+#: inc/customizer/customizer.php:110 inc/customizer/customizer.php:117
+msgid "Usual"
+msgstr "Обычный"
+
+#: inc/customizer/customizer.php:111
+msgid "Thin"
+msgstr "Тонкий"
+
+#: inc/customizer/customizer.php:112 inc/customizer/customizer.php:2892
+#: inc/customizer/customizer.php:2981 inc/customizer/customizer.php:3063
+#: inc/customizer/customizer.php:3152 inc/customizer/customizer.php:3242
+#: inc/customizer/customizer.php:3324 inc/customizer/customizer.php:3406
+#: inc/customizer/customizer.php:3488 inc/customizer/customizer.php:3570
+#: inc/customizer/customizer.php:3652
+msgid "Bold"
+msgstr "Жирный"
+
+#: inc/customizer/customizer.php:113
+msgid "Over bold"
+msgstr "Сверх жирный"
+
+#: inc/customizer/customizer.php:118 inc/customizer/customizer.php:2903
+#: inc/customizer/customizer.php:2992 inc/customizer/customizer.php:3074
+#: inc/customizer/customizer.php:3163 inc/customizer/customizer.php:3253
+#: inc/customizer/customizer.php:3335 inc/customizer/customizer.php:3417
+#: inc/customizer/customizer.php:3499 inc/customizer/customizer.php:3581
+#: inc/customizer/customizer.php:3663
+msgid "Italic"
+msgstr "Курсив"
+
+#: inc/customizer/customizer.php:119 inc/customizer/customizer.php:2914
+#: inc/customizer/customizer.php:3003 inc/customizer/customizer.php:3085
+#: inc/customizer/customizer.php:3174 inc/customizer/customizer.php:3264
+#: inc/customizer/customizer.php:3346 inc/customizer/customizer.php:3428
+#: inc/customizer/customizer.php:3510 inc/customizer/customizer.php:3592
+#: inc/customizer/customizer.php:3674
+msgid "Underlined"
+msgstr "Подчеркнутый"
+
+#: inc/customizer/customizer.php:120
+msgid "Crossed out"
+msgstr "Зачеркнутый"
+
+#: inc/customizer/customizer.php:133
+msgid "Layout"
+msgstr "Структура"
+
+#: inc/customizer/customizer.php:141 inc/customizer/customizer.php:445
+#: inc/customizer/customizer.php:2931
+msgid "Header"
+msgstr "Шапка"
+
+#: inc/customizer/customizer.php:142
+msgid "In this section, you can customize the width and height of the header"
+msgstr "В данной секции Вы можете настроить ширину и высоту шапки"
+
+#: inc/customizer/customizer.php:142 inc/customizer/customizer.php:244
+#: inc/customizer/customizer.php:307 inc/customizer/customizer.php:370
+#: inc/customizer/customizer.php:446 inc/customizer/customizer.php:572
+#: inc/customizer/customizer.php:654 inc/customizer/customizer.php:725
+#: inc/customizer/customizer.php:984 inc/customizer/customizer.php:1093
+#: inc/customizer/customizer.php:1171 inc/customizer/customizer.php:1247
+#: inc/customizer/customizer.php:1280 inc/customizer/customizer.php:1441
+#: inc/customizer/customizer.php:1508 inc/customizer/customizer.php:1528
+#: inc/customizer/customizer.php:1599 inc/customizer/customizer.php:1674
+#: inc/customizer/customizer.php:1695 inc/customizer/customizer.php:1849
+#: inc/customizer/customizer.php:1902 inc/customizer/customizer.php:1961
+#: inc/customizer/customizer.php:3194 inc/widgets/widget-subscribe.php:38
+msgid "Help"
+msgstr "Помощь"
+
+#: inc/customizer/customizer.php:161
+msgid "Header width"
+msgstr "Ширина шапки"
+
+#: inc/customizer/customizer.php:163 inc/customizer/customizer.php:184
+#: inc/customizer/customizer.php:261 inc/customizer/customizer.php:280
+#: inc/customizer/customizer.php:324 inc/customizer/customizer.php:343
+#: inc/customizer/customizer.php:387 inc/customizer/customizer.php:404
+#: inc/customizer/customizer.php:1297
+msgid "Full width"
+msgstr "На всю ширину"
+
+#: inc/customizer/customizer.php:164 inc/customizer/customizer.php:185
+#: inc/customizer/customizer.php:262 inc/customizer/customizer.php:281
+#: inc/customizer/customizer.php:325 inc/customizer/customizer.php:344
+#: inc/customizer/customizer.php:388 inc/customizer/customizer.php:405
+msgid "Fixed width"
+msgstr "Фиксированная ширина"
+
+#: inc/customizer/customizer.php:182
+msgid "Header inner width"
+msgstr "Ширина внутри шапки"
+
+#: inc/customizer/customizer.php:202
+msgid "Header padding top"
+msgstr "Отступ сверху у шапки"
+
+#: inc/customizer/customizer.php:204
+msgid "You can set padding top, ex. for background image"
+msgstr ""
+"Вы можете задать отступ сверху у шапки, например, чтобы поместить выбранный "
+"фон"
+
+#: inc/customizer/customizer.php:226
+msgid "Header padding bottom"
+msgstr "Отступ снизу у шапки"
+
+#: inc/customizer/customizer.php:228
+msgid "You can set padding bottom, ex. for background image"
+msgstr ""
+"Вы можете задать отступ снизу у шапки, например, чтобы поместить выбранный "
+"фон"
+
+#: inc/customizer/customizer.php:243 inc/setup.php:58
+msgid "Header menu"
+msgstr "Меню под шапкой"
+
+#: inc/customizer/customizer.php:244
+msgid ""
+"In this section, you can customize the width and fixation of the menu under "
+"the header"
+msgstr ""
+"В данной секции Вы можете настроить ширину и фиксирование меню под шапкой"
+
+#: inc/customizer/customizer.php:259
+msgid "Header menu width"
+msgstr "Ширина меню под шапкой"
+
+#: inc/customizer/customizer.php:278
+msgid "Header menu inner width"
+msgstr "Ширина внутри меню под шапкой"
+
+#: inc/customizer/customizer.php:293
+msgid "Make menu fixed?"
+msgstr "Сделать меню фиксированным?"
+
+#: inc/customizer/customizer.php:296
+msgid "Yes, do"
+msgstr "Да, сделать"
+
+#: inc/customizer/customizer.php:297
+msgid "No, no need"
+msgstr "Нет, не нужно"
+
+#: inc/customizer/customizer.php:306 inc/setup.php:59
+msgid "Footer menu"
+msgstr "Меню в подвале"
+
+#: inc/customizer/customizer.php:307
+msgid ""
+"In this section, you can customize the width and display on the mobile menu "
+"in the footer"
+msgstr ""
+"В данной секции Вы можете настроить ширину и вывод на мобильном меню в "
+"подвале"
+
+#: inc/customizer/customizer.php:322
+msgid "Footer menu width"
+msgstr "Ширина меню в подвале"
+
+#: inc/customizer/customizer.php:341
+msgid "Footer menu inner width"
+msgstr "Ширина внутри меню в подвале"
+
+#: inc/customizer/customizer.php:356
+msgid "Display menu on mobile?"
+msgstr "Выводить меню на мобильном?"
+
+#: inc/customizer/customizer.php:359 inc/customizer/customizer.php:563
+#: inc/customizer/customizer.php:753 inc/customizer/customizer.php:768
+#: inc/customizer/customizer.php:783 inc/customizer/customizer.php:798
+#: inc/customizer/customizer.php:813 inc/customizer/customizer.php:828
+#: inc/customizer/customizer.php:843 inc/customizer/customizer.php:858
+#: inc/customizer/customizer.php:873 inc/customizer/customizer.php:888
+#: inc/customizer/customizer.php:903 inc/customizer/customizer.php:918
+#: inc/customizer/customizer.php:933 inc/customizer/customizer.php:948
+#: inc/customizer/customizer.php:1012 inc/customizer/customizer.php:1027
+#: inc/customizer/customizer.php:1042 inc/customizer/customizer.php:1057
+#: inc/customizer/customizer.php:1132 inc/customizer/customizer.php:1147
+#: inc/customizer/customizer.php:1208 inc/customizer/customizer.php:1223
+#: inc/customizer/customizer.php:1238 inc/customizer/customizer.php:1262
+#: inc/customizer/customizer.php:1456 inc/customizer/customizer.php:1544
+#: inc/customizer/customizer.php:1579 inc/customizer/customizer.php:1976
+#: inc/customizer/customizer.php:2076 inc/customizer/customizer.php:2122
+#: inc/customizer/customizer.php:2137 inc/customizer/customizer.php:2152
+#: inc/customizer/customizer.php:2167 inc/customizer/customizer.php:2182
+#: inc/customizer/customizer.php:2197 inc/customizer/customizer.php:2212
+#: inc/customizer/customizer.php:2282 inc/customizer/customizer.php:2297
+#: inc/customizer/customizer.php:2312 inc/customizer/customizer.php:2327
+#: inc/customizer/customizer.php:2342 inc/customizer/customizer.php:2357
+#: inc/customizer/customizer.php:2416 inc/customizer/customizer.php:2431
+#: inc/customizer/customizer.php:2446 inc/customizer/customizer.php:2461
+#: inc/customizer/customizer.php:2476 inc/customizer/customizer.php:2491
+#: inc/customizer/customizer.php:2550 inc/customizer/customizer.php:2565
+#: inc/customizer/customizer.php:2580 inc/customizer/customizer.php:2595
+#: inc/customizer/customizer.php:2610 inc/customizer/customizer.php:2625
+#: inc/customizer/customizer.php:2684 inc/customizer/customizer.php:2699
+#: inc/customizer/customizer.php:2714 inc/customizer/customizer.php:2729
+#: inc/customizer/customizer.php:2744 inc/customizer/customizer.php:2759
+msgid "Yes, output"
+msgstr "Да, выводить"
+
+#: inc/customizer/customizer.php:360 inc/customizer/customizer.php:564
+#: inc/customizer/customizer.php:754 inc/customizer/customizer.php:769
+#: inc/customizer/customizer.php:784 inc/customizer/customizer.php:799
+#: inc/customizer/customizer.php:814 inc/customizer/customizer.php:829
+#: inc/customizer/customizer.php:844 inc/customizer/customizer.php:859
+#: inc/customizer/customizer.php:874 inc/customizer/customizer.php:889
+#: inc/customizer/customizer.php:904 inc/customizer/customizer.php:919
+#: inc/customizer/customizer.php:934 inc/customizer/customizer.php:949
+#: inc/customizer/customizer.php:1013 inc/customizer/customizer.php:1028
+#: inc/customizer/customizer.php:1043 inc/customizer/customizer.php:1058
+#: inc/customizer/customizer.php:1133 inc/customizer/customizer.php:1148
+#: inc/customizer/customizer.php:1209 inc/customizer/customizer.php:1224
+#: inc/customizer/customizer.php:1239 inc/customizer/customizer.php:1263
+#: inc/customizer/customizer.php:1457 inc/customizer/customizer.php:1545
+#: inc/customizer/customizer.php:1580 inc/customizer/customizer.php:1977
+#: inc/customizer/customizer.php:2077 inc/customizer/customizer.php:2123
+#: inc/customizer/customizer.php:2138 inc/customizer/customizer.php:2153
+#: inc/customizer/customizer.php:2168 inc/customizer/customizer.php:2183
+#: inc/customizer/customizer.php:2198 inc/customizer/customizer.php:2213
+#: inc/customizer/customizer.php:2283 inc/customizer/customizer.php:2298
+#: inc/customizer/customizer.php:2313 inc/customizer/customizer.php:2328
+#: inc/customizer/customizer.php:2343 inc/customizer/customizer.php:2358
+#: inc/customizer/customizer.php:2417 inc/customizer/customizer.php:2432
+#: inc/customizer/customizer.php:2447 inc/customizer/customizer.php:2462
+#: inc/customizer/customizer.php:2477 inc/customizer/customizer.php:2492
+#: inc/customizer/customizer.php:2551 inc/customizer/customizer.php:2566
+#: inc/customizer/customizer.php:2581 inc/customizer/customizer.php:2596
+#: inc/customizer/customizer.php:2611 inc/customizer/customizer.php:2626
+#: inc/customizer/customizer.php:2685 inc/customizer/customizer.php:2700
+#: inc/customizer/customizer.php:2715 inc/customizer/customizer.php:2730
+#: inc/customizer/customizer.php:2745 inc/customizer/customizer.php:2760
+msgid "No, do not output"
+msgstr "Нет, не выводить"
+
+#: inc/customizer/customizer.php:369 inc/customizer/customizer.php:571
+#: inc/setup.php:102
+msgid "Footer"
+msgstr "Подвал"
+
+#: inc/customizer/customizer.php:370
+msgid "In this section, you can customize the width of the footer"
+msgstr "В данной секции Вы можете настроить ширину подвала"
+
+#: inc/customizer/customizer.php:385
+msgid "Footer width"
+msgstr "Ширина подвала"
+
+#: inc/customizer/customizer.php:402
+msgid "Footer inner width"
+msgstr "Ширина внутри подвала"
+
+#: inc/customizer/customizer.php:439
+msgid "Blocks"
+msgstr "Блоки"
+
+#: inc/customizer/customizer.php:446
+msgid "In this section you can customize the appearance of the header"
+msgstr "В данной секции Вы можете настроить внешний вид шапки"
+
+#: inc/customizer/customizer.php:458
+msgid "Logotype"
+msgstr "Логотип"
+
+#: inc/customizer/customizer.php:470
+msgid "Logotype max width, px"
+msgstr "Максимальная ширина логотипа, px"
+
+#: inc/customizer/customizer.php:487
+msgid "Logotype max height, px"
+msgstr "Максимальная высота логотипа, px"
+
+#: inc/customizer/customizer.php:503
+msgid "Hide site title and description?"
+msgstr "Скрыть заголовок и описание в шапке?"
+
+#: inc/customizer/customizer.php:504
+msgid ""
+"If you hide the title and description, it is desirable to set for the main "
+"page h1, for example, in the section Blocks > Home"
+msgstr ""
+"Если скрыть заголовок и описание, желательно задать для главной страницы h1, "
+"например, в разделе Блоки > Главная"
+
+#: inc/customizer/customizer.php:508 inc/customizer/customizer.php:1841
+msgid "Do not hide"
+msgstr "Не скрывать"
+
+#: inc/customizer/customizer.php:509 inc/customizer/customizer.php:1840
+msgid "Hide"
+msgstr "Скрыть"
+
+#: inc/customizer/customizer.php:520 inc/customizer/customizer.php:641
+msgid "Show social links?"
+msgstr "Показывать соц сети?"
+
+#: inc/customizer/customizer.php:521 inc/customizer/customizer.php:642
+msgid "Links to social networks can be set in Modules > Social Profiles"
+msgstr "Ссылки на соц. сети можно задать в разделе Модули > Социальные профили"
+
+#: inc/customizer/customizer.php:524 inc/customizer/customizer.php:645
+msgid "Yes, show"
+msgstr "Да, показывать"
+
+#: inc/customizer/customizer.php:525 inc/customizer/customizer.php:646
+msgid "No, do not show"
+msgstr "Нет, не показывать"
+
+#: inc/customizer/customizer.php:536
+msgid "HTML code #1"
+msgstr "HTML код #1"
+
+#: inc/customizer/customizer.php:537
+msgid "Code will be displayed after logotype"
+msgstr "Код будет выведен после логотипа"
+
+#: inc/customizer/customizer.php:548
+msgid "HTML code #2"
+msgstr "HTML код #2"
+
+#: inc/customizer/customizer.php:549
+msgid "Code will be displayed after top menu"
+msgstr "Код будет размещен после меню в шапке"
+
+#: inc/customizer/customizer.php:560
+msgid "Show mobile search?"
+msgstr "Выводить поиск на мобильном?"
+
+#: inc/customizer/customizer.php:572
+msgid "In this section, you can customize the appearance of the footer"
+msgstr "В данной секции Вы можете настроить внешний вид подвала"
+
+#: inc/customizer/customizer.php:583
+msgid "Number of widget areas"
+msgstr "Число виджет блоков"
+
+#: inc/customizer/customizer.php:586
+msgid "0 - for disable, maximum 5"
+msgstr "0 - чтобы отключить, максимум 5"
+
+#: inc/customizer/customizer.php:596
+msgid "Set widget areas to the equal width"
+msgstr "Установить одинаковую ширину виджетов"
+
+#: inc/customizer/customizer.php:597
+msgid ""
+"By default, the width of the widgets is equal to the width of the content "
+"inside. To make the columns the equal width, set this checkbox."
+msgstr ""
+"По умолчанию ширина виджетов равняется ширине контента внутри. Чтобы сделать "
+"все колонки одинаковой ширины, установите чекбокс."
+
+#: inc/customizer/customizer.php:608
+msgid "Copyright"
+msgstr "Копирайт"
+
+#: inc/customizer/customizer.php:609
+msgid "Use %year% to add the current year"
+msgstr "Используйте %year%, чтобы добавить текущий год"
+
+#: inc/customizer/customizer.php:618
+msgid "Text under copyright"
+msgstr "Текст под копирайтом"
+
+#: inc/customizer/customizer.php:629
+msgid "Counters"
+msgstr "Счетчики"
+
+#: inc/customizer/customizer.php:654
+msgid "In this section, you can customize the appearance of the home page"
+msgstr "В данной секции Вы можете настроить внешний вид главной страницы"
+
+#: inc/customizer/customizer.php:665
+msgid "Post cards on home"
+msgstr "Карточки постов на главной"
+
+#: inc/customizer/customizer.php:677 inc/customizer/customizer.php:737
+#: inc/customizer/customizer.php:996 inc/customizer/customizer.php:1117
+#: inc/customizer/customizer.php:1246 inc/setup.php:87
+msgid "Sidebar"
+msgstr "Сайдбар"
+
+#: inc/customizer/customizer.php:690 inc/customizer/customizer.php:3204
+msgid "Header H1"
+msgstr "Заголовок H1"
+
+#: inc/customizer/customizer.php:691
+msgid ""
+"If the field is not specified, the logo (site name) becomes the h1 header"
+msgstr ""
+"Если поле не задано - заголовком h1 становится логотип (название сайта)"
+
+#: inc/customizer/customizer.php:701
+msgid "Text"
+msgstr "Текст"
+
+#: inc/customizer/customizer.php:703
+msgid "The text under the heading H1 is displayed only on the main"
+msgstr "Текст под заголовком H1, отображается только на главной"
+
+#: inc/customizer/customizer.php:713
+msgid "H1 and text position"
+msgstr "Расположение заголовка и текста"
+
+#: inc/customizer/customizer.php:716
+msgid "Top (under the menu)"
+msgstr "Сверху (сразу под меню)"
+
+#: inc/customizer/customizer.php:717
+msgid "Bottom (after posts and pagination)"
+msgstr "Снизу (после постов и пагинации)"
+
+#: inc/customizer/customizer.php:724
+msgid "Single"
+msgstr "Запись"
+
+#: inc/customizer/customizer.php:725
+msgid "In this section, you can customize the appearance of the post"
+msgstr "В данной секции Вы можете настроить внешний вид записи"
+
+#: inc/customizer/customizer.php:749 inc/customizer/customizer.php:1008
+msgid "Show thumbnail?"
+msgstr "Выводить миниатюру?"
+
+#: inc/customizer/customizer.php:751
+msgid "Post thumbnail"
+msgstr "Изображение записи"
+
+#: inc/customizer/customizer.php:765
+msgid "Show reading time?"
+msgstr "Выводить время чтения?"
+
+#: inc/customizer/customizer.php:780
+msgid "Show date publication?"
+msgstr "Выводить дату публикации?"
+
+#: inc/customizer/customizer.php:795
+msgid "Show date modified?"
+msgstr "Выводить дату обновления?"
+
+#: inc/customizer/customizer.php:810 inc/customizer/customizer.php:2149
+#: inc/customizer/customizer.php:2309 inc/customizer/customizer.php:2443
+#: inc/customizer/customizer.php:2577 inc/customizer/customizer.php:2711
+msgid "Show category?"
+msgstr "Выводить рубрику?"
+
+#: inc/customizer/customizer.php:825
+msgid "Show author?"
+msgstr "Выводить автора?"
+
+#: inc/customizer/customizer.php:840 inc/customizer/customizer.php:1024
+msgid "Show social buttons at the top?"
+msgstr "Выводить наверху соц кнопки?"
+
+#: inc/customizer/customizer.php:855 inc/customizer/customizer.php:2209
+#: inc/customizer/customizer.php:2354 inc/customizer/customizer.php:2488
+#: inc/customizer/customizer.php:2622 inc/customizer/customizer.php:2756
+msgid "Show excerpt?"
+msgstr "Выводить отрывок?"
+
+#: inc/customizer/customizer.php:870 inc/customizer/customizer.php:2179
+#: inc/customizer/customizer.php:2324 inc/customizer/customizer.php:2458
+#: inc/customizer/customizer.php:2592 inc/customizer/customizer.php:2726
+msgid "Show count comments?"
+msgstr "Выводить кол-во комментариев?"
+
+#: inc/customizer/customizer.php:885 inc/customizer/customizer.php:2194
+#: inc/customizer/customizer.php:2339 inc/customizer/customizer.php:2473
+#: inc/customizer/customizer.php:2607 inc/customizer/customizer.php:2741
+msgid "Show count views?"
+msgstr "Выводить кол-во просмотров?"
+
+#: inc/customizer/customizer.php:900
+msgid "Show tags if they are set?"
+msgstr "Выводить теги, если заданы?"
+
+#: inc/customizer/customizer.php:915 inc/customizer/customizer.php:1039
+msgid "Show rating?"
+msgstr "Выводить рейтинг?"
+
+#: inc/customizer/customizer.php:930
+msgid "Show the author's block?"
+msgstr "Выводить блок автора?"
+
+#: inc/customizer/customizer.php:945 inc/customizer/customizer.php:1054
+msgid "Show social buttons under the post?"
+msgstr "Выводить соц кнопки под постом?"
+
+#: inc/customizer/customizer.php:960 inc/customizer/customizer.php:1068
+msgid "Count of related articles"
+msgstr "Кол-во похожих статей"
+
+#: inc/customizer/customizer.php:962 inc/customizer/customizer.php:1071
+msgid "0 - for disable, maximum 50"
+msgstr "0 - чтобы отключить, максимум 50"
+
+#: inc/customizer/customizer.php:975 inc/customizer/customizer.php:1084
+msgid "Show"
+msgstr "Показывать"
+
+#: inc/customizer/customizer.php:983
+msgid "Page"
+msgstr "Страница"
+
+#: inc/customizer/customizer.php:984
+msgid "In this section, you can customize the appearance of the page"
+msgstr "В данной секции Вы можете настроить внешний вид страницы"
+
+#: inc/customizer/customizer.php:1010
+msgid "Page thumbnail"
+msgstr "Изображение страницы"
+
+#: inc/customizer/customizer.php:1092
+msgid "Archive"
+msgstr "Архивы"
+
+#: inc/customizer/customizer.php:1093
+msgid "In this section, you can customize the appearance of the archive"
+msgstr "В данной секции Вы можете настроить внешний вид архивов"
+
+#: inc/customizer/customizer.php:1105
+msgid "Post cards in archive"
+msgstr "Карточки постов в архивах"
+
+#: inc/customizer/customizer.php:1129
+msgid "Show description?"
+msgstr "Выводить описание?"
+
+#: inc/customizer/customizer.php:1144
+msgid "Show subcategories?"
+msgstr "Выводить подрубрики?"
+
+#: inc/customizer/customizer.php:1159
+msgid "Position of archive description"
+msgstr "Расположение описания"
+
+#: inc/customizer/customizer.php:1162
+msgid "Top (under the heading)"
+msgstr "Сверху (под заголовков)"
+
+#: inc/customizer/customizer.php:1163
+msgid "Bottom (under pagination)"
+msgstr "Снизу (под пагинацией)"
+
+#: inc/customizer/customizer.php:1171
+msgid "In this section, you can customize the appearance of the comments"
+msgstr "В данной секции Вы можете настроить внешний вид комментариев"
+
+#: inc/customizer/customizer.php:1183
+msgid "Comments form title"
+msgstr "Заголовок формы комментариев"
+
+#: inc/customizer/customizer.php:1193 inc/customizer/customizer.php:1685
+msgid "Text before Send button"
+msgstr "Текст перед кнопкой Отправить"
+
+#: inc/customizer/customizer.php:1205
+msgid "Show date in comments?"
+msgstr "Выводить дату в комментариях?"
+
+#: inc/customizer/customizer.php:1220
+msgid "Show time in comments?"
+msgstr "Выводить время в комментариях?"
+
+#: inc/customizer/customizer.php:1235
+msgid "Show smiles?"
+msgstr "Выводить смайлы в комментариях?"
+
+#: inc/customizer/customizer.php:1247
+msgid "In this section, you can customize the appearance of the sidebar"
+msgstr "В данной секции Вы можете настроить внешний вид сайдбара"
+
+#: inc/customizer/customizer.php:1259
+msgid "Show sidebar on mobile?"
+msgstr "Выводить сайдбар на мобильном?"
+
+#: inc/customizer/customizer.php:1272
+msgid "Modules"
+msgstr "Модули"
+
+#: inc/customizer/customizer.php:1279
+msgid "Slider"
+msgstr "Слайдер"
+
+#: inc/customizer/customizer.php:1280
+msgid "In this section, you can customize the slider"
+msgstr "В данной секции Вы можете настроить слайдер"
+
+#: inc/customizer/customizer.php:1294
+msgid "Slider width"
+msgstr "Ширина слайдера"
+
+#: inc/customizer/customizer.php:1296
+msgid "In content"
+msgstr "В контенте"
+
+#: inc/customizer/customizer.php:1298
+msgid "In full screen"
+msgstr "На весь экран"
+
+#: inc/customizer/customizer.php:1310
+msgid "Autoplay"
+msgstr "Автопрокрутка"
+
+#: inc/customizer/customizer.php:1312
+msgid "Autoplay slides in ms, 0 - for disable"
+msgstr "Автопрокрутка слайдера в мс, 0 - чтобы отключить"
+
+#: inc/customizer/customizer.php:1323
+msgid "Slider type"
+msgstr "Тип слайдера"
+
+#: inc/customizer/customizer.php:1325
+msgid "One slide"
+msgstr "Один слайд"
+
+#: inc/customizer/customizer.php:1326
+msgid "Three slides"
+msgstr "Три слайда"
+
+#: inc/customizer/customizer.php:1327
+msgid "With thumbnails"
+msgstr "С миниатюрами"
+
+#: inc/customizer/customizer.php:1338
+msgid "Count of slider posts"
+msgstr "Кол-во записей в слайдере"
+
+#: inc/customizer/customizer.php:1340
+msgid ""
+"The latest posts with thumbnails will be displayed. 0 - for disable, maximum "
+"15"
+msgstr ""
+"Будут выводиться последние записи с миниатюрами. 0 - чтобы отключить, "
+"максимум 15"
+
+#: inc/customizer/customizer.php:1351
+msgid "Order posts"
+msgstr "Сортировка записей"
+
+#: inc/customizer/customizer.php:1353
+msgid "Rand"
+msgstr "Случайно"
+
+#: inc/customizer/customizer.php:1354
+msgid "By views"
+msgstr "По просмотрам"
+
+#: inc/customizer/customizer.php:1355 inc/widgets/widget-articles.php:210
+msgid "By comments"
+msgstr "По комментариям"
+
+#: inc/customizer/customizer.php:1356
+msgid "New top"
+msgstr "Новые сверху"
+
+#: inc/customizer/customizer.php:1367
+msgid "ID posts for the slider"
+msgstr "ID записей для слайдера"
+
+#: inc/customizer/customizer.php:1368
+msgid ""
+"You can specify the ID of posts separated by commas to display certain posts "
+"in the slider. Missing will be filled with the latest posts."
+msgstr ""
+"Вы можете указать ID записей через запятую, для вывода определенных постов в "
+"слайдере. Недостающие будут заполнены последними записями."
+
+#: inc/customizer/customizer.php:1378
+msgid "ID category posts for the slider"
+msgstr "ID рубрик записей для слайдера"
+
+#: inc/customizer/customizer.php:1379
+msgid ""
+"You can specify the ID of category for posts separated by commas to display "
+"certain posts in the slider. Missing will be filled with posts in accordance "
+"with the sorting."
+msgstr ""
+"Вы можете указать ID рубрик записей через запятую, для вывода определенных "
+"постов в слайдере. Недостающие будут заполнены записями в соответствии с "
+"сортировкой."
+
+#: inc/customizer/customizer.php:1389
+msgid "Show on pagination pages"
+msgstr "Показывать на страницах пагинации"
+
+#: inc/customizer/customizer.php:1400
+msgid "Show category"
+msgstr "Показывать рубрику"
+
+#: inc/customizer/customizer.php:1411
+msgid "Show title"
+msgstr "Показать заголовок"
+
+#: inc/customizer/customizer.php:1422
+msgid "Show excerpt"
+msgstr "Показать отрывок"
+
+#: inc/customizer/customizer.php:1433
+msgid "Disable slider on mobile"
+msgstr "Отключить слайдер на мобильном"
+
+#: inc/customizer/customizer.php:1441
+msgid "In this section, you can customize the toc"
+msgstr "В данной секции Вы можете настроить содержание"
+
+#: inc/customizer/customizer.php:1453
+msgid "Display the content of posts?"
+msgstr "Выводить содержание постов?"
+
+#: inc/customizer/customizer.php:1468
+msgid "Default open"
+msgstr "По умолчанию открыто"
+
+#: inc/customizer/customizer.php:1479
+msgid "Wrap the content in noindex"
+msgstr "Обернуть содержание в noindex"
+
+#: inc/customizer/customizer.php:1490
+msgid "Display the content at the beginning of the post"
+msgstr "Вывести содержание в начале записи"
+
+#: inc/customizer/customizer.php:1501
+msgid "Content title"
+msgstr "Заголовок содержания"
+
+#: inc/customizer/customizer.php:1507
+msgid "Lightbox"
+msgstr "Лайтбокс"
+
+#: inc/customizer/customizer.php:1508
+msgid ""
+"In this section, you can turn on the enlargement of the picture when you "
+"click on it"
+msgstr ""
+"В данной секции Вы можете включить увеличение картинки при клике на нее"
+
+#: inc/customizer/customizer.php:1520
+msgid "Enable lightbox"
+msgstr "Включить лайтбокс"
+
+#: inc/customizer/customizer.php:1527
+msgid "Breadcrumbs"
+msgstr "Хлебные крошки"
+
+#: inc/customizer/customizer.php:1528
+msgid "In this section, you can customize the breadcrumbs"
+msgstr "В данной секции Вы можете настроить хлебные крошки"
+
+#: inc/customizer/customizer.php:1540 inc/customizer/customizer.php:1576
+msgid "Show breadcrumbs?"
+msgstr "Выводить хлебные крошки?"
+
+#: inc/customizer/customizer.php:1541
+msgid ""
+"By default, bread crumbs embedded in the Root theme are displayed, but if "
+"you activate bread crumbs in the Yoast plugin, the Yoast bread crumbs will "
+"be displayed"
+msgstr ""
+"По умолчанию отображаются хлебные крошки, встроенные в тему Root, но при "
+"активации вывода хлебных крошек в плагине Yoast - будут выводиться хлебные "
+"крошки Yoast"
+
+#: inc/customizer/customizer.php:1556
+msgid "Text link to home page"
+msgstr "Текст ссылки на главную страницу"
+
+#: inc/customizer/customizer.php:1566
+msgid "Separator"
+msgstr "Разделитель"
+
+#: inc/customizer/customizer.php:1591
+msgid "Display page title"
+msgstr "Вывести название страницы"
+
+#: inc/customizer/customizer.php:1598
+msgid "Author block"
+msgstr "Блок автора"
+
+#: inc/customizer/customizer.php:1599
+msgid "In this section, you can customize the author block"
+msgstr "В данной секции Вы можете настроить блок автора"
+
+#: inc/customizer/customizer.php:1611
+msgid "Display a link to the author’s page"
+msgstr "Выводить ссылку на страницу автора"
+
+#: inc/customizer/customizer.php:1622 inc/widgets/widget-articles.php:259
+msgid "Open link in new window"
+msgstr "Открывать ссылку в новом окне"
+
+#: inc/customizer/customizer.php:1633
+msgid "Display author social profiles"
+msgstr "Выводить соц. профили автора"
+
+#: inc/customizer/customizer.php:1634
+msgid "Links to social profiles author can be set in Users"
+msgstr "Ссылки на соц. профили автора можно задать в разделе Пользователи"
+
+#: inc/customizer/customizer.php:1645
+msgid "Social profiles title"
+msgstr "Заголовок соц. профилей"
+
+#: inc/customizer/customizer.php:1655
+msgid "Show title social profiles"
+msgstr "Показать заголовок соц. профилей"
+
+#: inc/customizer/customizer.php:1666
+msgid "Hide links social profiles by JS"
+msgstr "Скрыть ссылки соц. профилей через JS"
+
+#: inc/customizer/customizer.php:1673
+msgid "Contact Form"
+msgstr "Контактная форма"
+
+#: inc/customizer/customizer.php:1674
+msgid "In this section, you can customize the contact form"
+msgstr "В данной секции Вы можете настроить форму обратной связи"
+
+#: inc/customizer/customizer.php:1694
+msgid "Social profiles"
+msgstr "Социальные профили"
+
+#: inc/customizer/customizer.php:1695
+msgid "In this section, you can customize the social profiles"
+msgstr "В данной секции Вы можете настроить социальные профили"
+
+#: inc/customizer/customizer.php:1707
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer/customizer.php:1717
+msgid "Vkontakte"
+msgstr "ВКонтакте"
+
+#: inc/customizer/customizer.php:1727
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer/customizer.php:1737
+msgid "Odnoklassniki"
+msgstr "Одноклассники"
+
+#: inc/customizer/customizer.php:1747
+msgid "Telegram"
+msgstr "Telegram"
+
+#: inc/customizer/customizer.php:1757
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/customizer/customizer.php:1767
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer/customizer.php:1777
+msgid "Tik Tok"
+msgstr "Tik Tok"
+
+#: inc/customizer/customizer.php:1787
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: inc/customizer/customizer.php:1797
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: inc/customizer/customizer.php:1807
+msgid "Viber"
+msgstr "Viber"
+
+#: inc/customizer/customizer.php:1817
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer/customizer.php:1827
+msgid "Yandex Zen"
+msgstr "Яндекс Дзен"
+
+#: inc/customizer/customizer.php:1837
+msgid "Hide links by JS?"
+msgstr "Скрывать ссылки через JS?"
+
+#: inc/customizer/customizer.php:1848
+msgid "Sitemap"
+msgstr "Карта сайта"
+
+#: inc/customizer/customizer.php:1849
+msgid "In this section, you can customize the sitemap"
+msgstr "В данной секции Вы можете настроить карту сайта"
+
+#: inc/customizer/customizer.php:1861 inc/customizer/customizer.php:1953
+msgid "ID of categories to exclude"
+msgstr "ID категорий для исключения"
+
+#: inc/customizer/customizer.php:1862
+msgid ""
+"Enter the ID of the categories separated by commas to exclude them from the "
+"sitemap"
+msgstr "Укажите ID категорий через запятую, чтобы исключить их из карты сайта"
+
+#: inc/customizer/customizer.php:1872 inc/customizer/customizer.php:1942
+msgid "ID of posts to exclude"
+msgstr "ID записей для исключения"
+
+#: inc/customizer/customizer.php:1873
+msgid ""
+"Enter the ID of the posts separated by commas to exclude them from the "
+"sitemap"
+msgstr "Укажите ID записей через запятую, чтобы исключить их из карты сайта"
+
+#: inc/customizer/customizer.php:1883
+msgid "Show pages in sitemap"
+msgstr "Показать страницы в карте сайта"
+
+#: inc/customizer/customizer.php:1894
+msgid "ID of pages to exclude"
+msgstr "ID страниц для исключения"
+
+#: inc/customizer/customizer.php:1895
+msgid ""
+"Enter the ID of the pages separated by commas to exclude them from the "
+"sitemap"
+msgstr "Укажите ID страниц через запятую, чтобы исключить их из карты сайта"
+
+#: inc/customizer/customizer.php:1901 inc/customizer/customizer.php:2654
+msgid "Related posts"
+msgstr "Похожие записи"
+
+#: inc/customizer/customizer.php:1902
+msgid "In this section, you can customize the related posts"
+msgstr "В данной секции Вы можете настроить похожие записи"
+
+#: inc/customizer/customizer.php:1914
+msgid "Related articles title"
+msgstr "Заголовок похожих записей"
+
+#: inc/customizer/customizer.php:1926
+msgid "Order related posts"
+msgstr "Сортировка похожих записей"
+
+#: inc/customizer/customizer.php:1928
+msgid "By categories"
+msgstr "По рубрикам"
+
+#: inc/customizer/customizer.php:1929
+msgid "By tags"
+msgstr "По меткам"
+
+#: inc/customizer/customizer.php:1931
+msgid ""
+"In related posts, posts from the same category\\tag are displayed first, and "
+"then, if there is not enough related articles to the specified number, they "
+"are displayed randomly"
+msgstr ""
+"В похожих записях сначала выводятся записи из той же рубрики\\метки, а "
+"потом, если не хватает до указанного кол-ва похожих статей, выводятся "
+"рандомно"
+
+#: inc/customizer/customizer.php:1943
+msgid ""
+"You can specify the ID of the posts separated by commas to exclude them from "
+"the related posts"
+msgstr ""
+"Вы можете указать ID записей через запятую, чтобы исключить их из похожих "
+"записей"
+
+#: inc/customizer/customizer.php:1954
+msgid ""
+"You can specify the ID of categories separated by commas to exclude them "
+"from the related posts"
+msgstr ""
+"Вы можете указать ID рубрик записей через запятую, чтобы исключить их из "
+"похожих записей"
+
+#: inc/customizer/customizer.php:1960
+msgid "Scroll to top button"
+msgstr "Кнопка Наверх"
+
+#: inc/customizer/customizer.php:1961
+msgid "In this section, you can customize the top button"
+msgstr "В данной секции Вы можете настроить кнопку Наверх"
+
+#: inc/customizer/customizer.php:1973
+msgid "Show scroll to top button?"
+msgstr "Выводить кнопку наверх?"
+
+#: inc/customizer/customizer.php:1990
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: inc/customizer/customizer.php:2003
+msgid "Arrow color"
+msgstr "Цвет стрелки"
+
+#: inc/customizer/customizer.php:2016
+msgid "Button width, px"
+msgstr "Ширина кнопки, px"
+
+#: inc/customizer/customizer.php:2017 inc/customizer/customizer.php:2036
+msgid "Default is 50px"
+msgstr "По умолчанию — 50px"
+
+#: inc/customizer/customizer.php:2035
+msgid "Button height, px"
+msgstr "Высота кнопки, px"
+
+#: inc/customizer/customizer.php:2053
+msgid "Button icon"
+msgstr "Иконка на кнопке"
+
+#: inc/customizer/customizer.php:2055
+msgid "Double quote up"
+msgstr "Двойная кавычка вверх"
+
+#: inc/customizer/customizer.php:2056
+msgid "Quote up"
+msgstr "Кавычка вверх"
+
+#: inc/customizer/customizer.php:2057
+msgid "Arrow in a circle"
+msgstr "Стрелка вверх"
+
+#: inc/customizer/customizer.php:2058
+msgid "Up arrow"
+msgstr "Стрелка в круге"
+
+#: inc/customizer/customizer.php:2059
+msgid "Arrow in a square"
+msgstr "Стрелка в квадрате"
+
+#: inc/customizer/customizer.php:2060
+msgid "Up arrow 2"
+msgstr "Стрелка вверх 2"
+
+#: inc/customizer/customizer.php:2061
+msgid "Arrow in a circle 2"
+msgstr "Стрелка в круге 2"
+
+#: inc/customizer/customizer.php:2062
+msgid "Up arrow 3"
+msgstr "Стрелка вверх 3"
+
+#: inc/customizer/customizer.php:2073
+msgid "Show scroll to top button on mobile?"
+msgstr "Выводить кнопку наверх на мобильном?"
+
+#: inc/customizer/customizer.php:2086
+msgid "Post cards"
+msgstr "Карточки постов"
+
+#: inc/customizer/customizer.php:2104 inc/customizer/customizer.php:2264
+#: inc/customizer/customizer.php:2398 inc/customizer/customizer.php:2532
+#: inc/customizer/customizer.php:2666
+msgid "Title tag"
+msgstr "Тег заголовка"
+
+#: inc/customizer/customizer.php:2119 inc/customizer/customizer.php:2279
+#: inc/customizer/customizer.php:2413 inc/customizer/customizer.php:2547
+#: inc/customizer/customizer.php:2681
+msgid "Show the thumbnail?"
+msgstr "Выводить миниатюру?"
+
+#: inc/customizer/customizer.php:2134 inc/customizer/customizer.php:2294
+#: inc/customizer/customizer.php:2428 inc/customizer/customizer.php:2562
+#: inc/customizer/customizer.php:2696
+msgid "Show the date?"
+msgstr "Выводить дату?"
+
+#: inc/customizer/customizer.php:2164
+msgid "Show the author?"
+msgstr "Выводить автора?"
+
+#: inc/customizer/customizer.php:2224
+msgid "Press thumbnail to the left"
+msgstr "Прижать миниатюру к левому краю"
+
+#: inc/customizer/customizer.php:2235 inc/customizer/customizer.php:2369
+#: inc/customizer/customizer.php:2503 inc/customizer/customizer.php:2637
+#: inc/customizer/customizer.php:2771
+msgid "Round off a thumbnail"
+msgstr "Закруглить миниатюру"
+
+#: inc/customizer/customizer.php:2245 inc/customizer/customizer.php:2379
+#: inc/customizer/customizer.php:2513 inc/customizer/customizer.php:2647
+#: inc/customizer/customizer.php:2781
+msgid "Excerpt length"
+msgstr "Длина отрывка"
+
+#: inc/customizer/customizer.php:2789
+msgid "Codes"
+msgstr "Коды"
+
+#: inc/customizer/customizer.php:2801
+msgid "In &lt;head&gt; section"
+msgstr "В &lt;head&gt;"
+
+#: inc/customizer/customizer.php:2802
+msgid "Before &lt;/head&gt; tag"
+msgstr "Перед &lt;/head&gt; тегом"
+
+#: inc/customizer/customizer.php:2813
+msgid "Before &lt;/body&gt;"
+msgstr "Перед &lt;/body&gt;"
+
+#: inc/customizer/customizer.php:2824
+msgid "After content"
+msgstr "Сразу после контента"
+
+#: inc/customizer/customizer.php:2833
+msgid "Typography"
+msgstr "Типографика"
+
+#: inc/customizer/customizer.php:2842
+msgid "General"
+msgstr "Общие"
+
+#: inc/customizer/customizer.php:2854
+msgid "Main text"
+msgstr "Основной текст"
+
+#: inc/customizer/customizer.php:2866 inc/customizer/customizer.php:2955
+#: inc/customizer/customizer.php:3037 inc/customizer/customizer.php:3126
+msgid "Size, px"
+msgstr "Размер, px"
+
+#: inc/customizer/customizer.php:2868 inc/customizer/customizer.php:2881
+#: inc/customizer/customizer.php:2957 inc/customizer/customizer.php:2970
+#: inc/customizer/customizer.php:3039 inc/customizer/customizer.php:3052
+#: inc/customizer/customizer.php:3128 inc/customizer/customizer.php:3141
+#: inc/customizer/customizer.php:3218 inc/customizer/customizer.php:3231
+#: inc/customizer/customizer.php:3300 inc/customizer/customizer.php:3313
+#: inc/customizer/customizer.php:3382 inc/customizer/customizer.php:3395
+#: inc/customizer/customizer.php:3464 inc/customizer/customizer.php:3477
+#: inc/customizer/customizer.php:3546 inc/customizer/customizer.php:3559
+#: inc/customizer/customizer.php:3628 inc/customizer/customizer.php:3641
+#, php-format
+msgid "Default %s"
+msgstr "По умолчанию %s"
+
+#: inc/customizer/customizer.php:2879 inc/customizer/customizer.php:2968
+#: inc/customizer/customizer.php:3050 inc/customizer/customizer.php:3139
+#: inc/customizer/customizer.php:3229 inc/customizer/customizer.php:3311
+#: inc/customizer/customizer.php:3393 inc/customizer/customizer.php:3475
+#: inc/customizer/customizer.php:3557 inc/customizer/customizer.php:3639
+msgid "Line height"
+msgstr "Высота строки"
+
+#: inc/customizer/customizer.php:2925 inc/customizer/customizer.php:3014
+#: inc/customizer/customizer.php:3096 inc/customizer/customizer.php:3185
+#: inc/customizer/customizer.php:3275 inc/customizer/customizer.php:3357
+#: inc/customizer/customizer.php:3439 inc/customizer/customizer.php:3521
+#: inc/customizer/customizer.php:3603 inc/customizer/customizer.php:3685
+msgid "Uppercase"
+msgstr "Верхний регистр"
+
+#: inc/customizer/customizer.php:2943
+msgid "Site title"
+msgstr "Название сайта"
+
+#: inc/customizer/customizer.php:3025
+msgid "Site description"
+msgstr "Описание сайта"
+
+#: inc/customizer/customizer.php:3102
+msgid "Menu"
+msgstr "Меню"
+
+#: inc/customizer/customizer.php:3114
+msgid "Links in the menu"
+msgstr "Ссылки в меню"
+
+#: inc/customizer/customizer.php:3191
+msgid "Headers"
+msgstr "Заголовки"
+
+#: inc/customizer/customizer.php:3194
+msgid "Font sizes of headings are in relative em units"
+msgstr "Размер шрифтов заголовков указан в относительных единицах измерения em"
+
+#: inc/customizer/customizer.php:3216 inc/customizer/customizer.php:3298
+#: inc/customizer/customizer.php:3380 inc/customizer/customizer.php:3462
+#: inc/customizer/customizer.php:3544 inc/customizer/customizer.php:3626
+msgid "Size, em"
+msgstr "Размер, em"
+
+#: inc/customizer/customizer.php:3286
+msgid "Header H2"
+msgstr "Заголовок H2"
+
+#: inc/customizer/customizer.php:3368
+msgid "Header H3"
+msgstr "Заголовок H3"
+
+#: inc/customizer/customizer.php:3450
+msgid "Header H4"
+msgstr "Заголовок H4"
+
+#: inc/customizer/customizer.php:3532
+msgid "Header H5"
+msgstr "Заголовок H5"
+
+#: inc/customizer/customizer.php:3614
+msgid "Header H6"
+msgstr "Заголовок H6"
+
+#: inc/customizer/customizer.php:3701
+msgid "Base site color"
+msgstr "Основной цвет сайта"
+
+#: inc/customizer/customizer.php:3702
+msgid ""
+"Separators, pagination, lists, buttons, mob. menu, etc. It is desirable to "
+"choose a color that stands out on a white background"
+msgstr ""
+"Разделители, пагинация, списки, кнопки, моб. меню и т.д. Цвет желательно "
+"подобрать выделяющийся на белом фоне"
+
+#: inc/customizer/customizer.php:3713
+msgid "Site text color"
+msgstr "Основной цвет текста"
+
+#: inc/customizer/customizer.php:3725
+msgid "Link color"
+msgstr "Основной цвет ссылок"
+
+#: inc/customizer/customizer.php:3737
+msgid "Link hover color"
+msgstr "Основной цвет ссылок при наведении"
+
+#: inc/customizer/customizer.php:3749
+msgid "Header background color"
+msgstr "Цвет фона шапки"
+
+#: inc/customizer/customizer.php:3761
+msgid "Header text and link color"
+msgstr "Цвет текста и ссылок шапки"
+
+#: inc/customizer/customizer.php:3773
+msgid "Site title color"
+msgstr "Цвет названия сайта"
+
+#: inc/customizer/customizer.php:3785
+msgid "Site description color"
+msgstr "Цвет описания сайта"
+
+#: inc/customizer/customizer.php:3797
+msgid "Menu background color"
+msgstr "Цвет фона меню"
+
+#: inc/customizer/customizer.php:3809
+msgid "Menu link color"
+msgstr "Цвет ссылок в меню"
+
+#: inc/customizer/customizer.php:3821
+msgid "Content background color"
+msgstr "Цвет фона контента"
+
+#: inc/customizer/customizer.php:3833
+msgid "Footer background color"
+msgstr "Цвет фона подвала"
+
+#: inc/customizer/customizer.php:3845
+msgid "Footer text and link color"
+msgstr "Цвет текста и ссылок подвала"
+
+#: inc/customizer/customizer.php:3861
+msgid "Pattern"
+msgstr "Паттерн"
+
+#: inc/customizer/customizer.php:3874
+msgid "Site background link"
+msgstr "Ссылка фона сайта"
+
+#: inc/customizer/customizer.php:3884
+msgid "Hide link background by JS"
+msgstr "Скрыть ссылку фона через JS"
+
+#: inc/customizer/customizer.php:3895
+msgid "Header background"
+msgstr "Фон для шапки"
+
+#: inc/customizer/customizer.php:3897
+msgid ""
+"By default, the background of the header is displayed only on the desktop"
+msgstr "По умолчанию, фон шапки выводится только на десктопе"
+
+#: inc/customizer/customizer.php:3909
+msgid "Header background repeat"
+msgstr "Повторение фона"
+
+#: inc/customizer/customizer.php:3910
+msgid ""
+"If you need to repeat the background image of the header, you can set it in "
+"the box below"
+msgstr ""
+"Если Вам необходимо повторять фоновое изображение шапки, Вы можете задать "
+"это в поле ниже"
+
+#: inc/customizer/customizer.php:3912
+msgid "No repeat"
+msgstr "Не повторять"
+
+#: inc/customizer/customizer.php:3913
+msgid "Repeat horizontal and vertical"
+msgstr "Повторять по горизонтали и вертикали"
+
+#: inc/customizer/customizer.php:3914
+msgid "Repeat horizontal"
+msgstr "Повторять по горизонтали"
+
+#: inc/customizer/customizer.php:3915
+msgid "Repeat vertical"
+msgstr "Повторять по вертикали"
+
+#: inc/customizer/customizer.php:3928
+msgid "Header background position"
+msgstr "Расположение фона"
+
+#: inc/customizer/customizer.php:3930
+msgid "Top left"
+msgstr "Сверху слева"
+
+#: inc/customizer/customizer.php:3931
+msgid "Top center"
+msgstr "Сверху по центру"
+
+#: inc/customizer/customizer.php:3932
+msgid "Top right"
+msgstr "Сверху справа"
+
+#: inc/customizer/customizer.php:3933
+msgid "Middle left"
+msgstr "По центру слева"
+
+#: inc/customizer/customizer.php:3934
+msgid "Middle center"
+msgstr "По центру"
+
+#: inc/customizer/customizer.php:3935
+msgid "Middle right"
+msgstr "По центру справа"
+
+#: inc/customizer/customizer.php:3936
+msgid "Bottom left"
+msgstr "Снизу слева"
+
+#: inc/customizer/customizer.php:3937
+msgid "Bottom center"
+msgstr "Снизу по центру"
+
+#: inc/customizer/customizer.php:3938
+msgid "Bottom right"
+msgstr "Снизу справа"
+
+#: inc/customizer/customizer.php:3949
+msgid "Display header background on mobile"
+msgstr "Вывести фон шапки на мобильном"
+
+#: inc/customizer/customizer.php:3956
+msgid "Tweak options"
+msgstr "Расширенные настройки"
+
+#: inc/customizer/customizer.php:3968
+msgid "Content on full width"
+msgstr "Контент на всю ширину"
+
+#: inc/customizer/customizer.php:3979
+msgid "Social buttons title"
+msgstr "Заголовок соц. кнопок"
+
+#: inc/customizer/customizer.php:3989
+msgid "Show title social buttons"
+msgstr "Показать заголовок социальных кнопок"
+
+#: inc/customizer/customizer.php:4000
+msgid "Rating title"
+msgstr "Заголовок рейтинга"
+
+#: inc/customizer/customizer.php:4010
+msgid "Show rating statistics"
+msgstr "Показать статистику рейтинга"
+
+#: inc/customizer/customizer.php:4021
+msgid "Enable avertising on pages"
+msgstr "Включить рекламу на страницах"
+
+#: inc/customizer/customizer.php:4032
+msgid "The value of the telephone field for publisher microdata"
+msgstr "Значение поля telephone для микроразметки publisher"
+
+#: inc/customizer/customizer.php:4033
+msgid ""
+"If the field is not specified, the site name will be displayed as the "
+"telephone value"
+msgstr ""
+"Если поле не задано - в качестве значения telephone будет выводится название "
+"сайта"
+
+#: inc/customizer/customizer.php:4043
+msgid "The value of the address field for publisher microdata"
+msgstr "Значение поля address для микроразметки publisher"
+
+#: inc/customizer/customizer.php:4044
+msgid ""
+"If the field is not specified, the site address will be displayed as the "
+"address value"
+msgstr ""
+"Если поле не задано - в качестве значения address будет выводится адрес сайта"
+
+#: inc/customizer/customizer.php:4050
+msgid "Affiliate program"
+msgstr "Партнерская программа"
+
+#: inc/customizer/customizer.php:4063
+msgid "Start earning money?"
+msgstr "Начать зарабатывать?"
+
+#: inc/customizer/customizer.php:4066
+msgid "Yes, I want to earn"
+msgstr "Да, хочу зарабатывать"
+
+#: inc/customizer/customizer.php:4067
+msgid "No, not interested"
+msgstr "Нет, не интересует"
+
+#: inc/customizer/customizer.php:4078
+msgid "Your partner ID"
+msgstr "Ваш партнерский ID"
+
+#: inc/customizer/customizer.php:4089
+msgid "Text before link"
+msgstr "Текст перед ссылкой"
+
+#: inc/customizer/customizer.php:4099
+msgid "Text after link"
+msgstr "Текст после ссылки"
+
+#: inc/customizer/customizer.php:4202
+msgid "No"
+msgstr "Нет"
+
+#: inc/default-options.php:101
+msgid "Add a comment"
+msgstr "Добавить комментарий"
+
+#: inc/default-options.php:146 template-parts/author-box.php:67
+msgid "Author profiles"
+msgstr "Профили автора"
+
+#: inc/default-options.php:176
+msgid "You may also like"
+msgstr "Вам также может быть интересно"
+
+#: inc/default-options.php:361 template-parts/content-single.php:158
+msgid "Like this post? Please share to your friends:"
+msgstr "Понравилась статья? Поделиться с друзьями:"
+
+#: inc/default-options.php:363 template-parts/content-page.php:80
+#: template-parts/content-single.php:105
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: inc/default-options.php:373 inc/partner.php:40
+msgid "Powered by theme"
+msgstr "Работает на теме"
+
+#: inc/metaboxes.php:25
+msgid "Root: Post settings"
+msgstr "Root: Настройки записи"
+
+#: inc/metaboxes.php:35 template-parts/content-single.php:142
+#: template-parts/content-single.php:144
+msgid "Source"
+msgstr "Источник"
+
+#: inc/metaboxes.php:35
+msgid ""
+"If you need to provide a link to an external site as a source, fill in this "
+"field"
+msgstr ""
+"Если необходимо указать ссылку на внешний сайт в качестве Источника, "
+"заполните это поле"
+
+#: inc/metaboxes.php:36
+msgid "Hide link"
+msgstr "Спрятать ссылку"
+
+#: inc/metaboxes.php:36
+msgid "Hide link to source using JS"
+msgstr "Скрыть ссылку на источник с помощью JS"
+
+#: inc/metaboxes.php:37 inc/metaboxes.php:82
+msgid "Hide header"
+msgstr "Спрятать шапку"
+
+#: inc/metaboxes.php:37 inc/metaboxes.php:82
+msgid "Do not show the header on this page"
+msgstr "Не показывать шапку на этой странице"
+
+#: inc/metaboxes.php:38 inc/metaboxes.php:83
+msgid "Hide top menu"
+msgstr "Спрятать верхнее меню"
+
+#: inc/metaboxes.php:38 inc/metaboxes.php:83
+msgid "Do not show the top menu on this page"
+msgstr "Не показывать верхнее меню на этой странице"
+
+#: inc/metaboxes.php:39 inc/metaboxes.php:84
+#: inc/widgets/widget-articles.php:239
+msgid "Hide thumbnail"
+msgstr "Скрыть миниатюру"
+
+#: inc/metaboxes.php:39 inc/metaboxes.php:84
+msgid "Do not show thumbnail or separator on this page"
+msgstr "Не показывать миниатюру или разделитель на этой странице"
+
+#: inc/metaboxes.php:40 inc/metaboxes.php:85
+msgid "Hide breadcrumbs"
+msgstr "Спрятать хлебные крошки"
+
+#: inc/metaboxes.php:40 inc/metaboxes.php:85
+msgid "Do not show breadcrumbs on this page"
+msgstr "Не показывать хлебные крошки на этой странице"
+
+#: inc/metaboxes.php:41 inc/metaboxes.php:86
+msgid "Hide title"
+msgstr "Спрятать заголовок"
+
+#: inc/metaboxes.php:41 inc/metaboxes.php:86
+msgid "Do not show title H1 on this page"
+msgstr "Не показывать заголовок H1 на этой странице"
+
+#: inc/metaboxes.php:42
+msgid "Hide meta-information"
+msgstr "Спрятать мета-информацию"
+
+#: inc/metaboxes.php:42
+msgid "Do not show meta-information (date, category, author) on this page"
+msgstr "Не показывать мета-информацию (дата, рубрика, автор) на этой странице"
+
+#: inc/metaboxes.php:43 inc/metaboxes.php:87
+msgid "Hide top social buttons"
+msgstr "Спрятать верхние соц. кнопки"
+
+#: inc/metaboxes.php:43 inc/metaboxes.php:87
+msgid "Do not show top social buttons on this page"
+msgstr "Не показывать верхние соц. кнопки на этой странице"
+
+#: inc/metaboxes.php:44 inc/metaboxes.php:88
+msgid "Hide contents"
+msgstr "Спрятать содержание"
+
+#: inc/metaboxes.php:44 inc/metaboxes.php:88
+msgid "Do not show contents on this page"
+msgstr "Не показывать содержание на этой странице"
+
+#: inc/metaboxes.php:45 inc/metaboxes.php:89
+msgid "Hide rating"
+msgstr "Спрятать рейтинг"
+
+#: inc/metaboxes.php:45 inc/metaboxes.php:89
+msgid "Do not show rating on this page"
+msgstr "Не показывать рейтинг на этой странице"
+
+#: inc/metaboxes.php:46
+msgid "Hide author box"
+msgstr "Спрятать блок автора"
+
+#: inc/metaboxes.php:46
+msgid "Do not show author box on this page"
+msgstr "Не показывать блок автора на этой странице"
+
+#: inc/metaboxes.php:47 inc/metaboxes.php:90
+msgid "Hide bottom social buttons"
+msgstr "Спрятать нижние соц. кнопки"
+
+#: inc/metaboxes.php:47 inc/metaboxes.php:90
+msgid "Do not show bottom social buttons on this page"
+msgstr "Не показывать нижние соц. кнопки на этой странице"
+
+#: inc/metaboxes.php:48 inc/metaboxes.php:91
+msgid "Hide related posts"
+msgstr "Спрятать похожие записи"
+
+#: inc/metaboxes.php:48 inc/metaboxes.php:91
+msgid "Do not show related posts on this page"
+msgstr "Не показывать на этой странице похожие записи"
+
+#: inc/metaboxes.php:49 inc/metaboxes.php:92
+msgid "Hide comments"
+msgstr "Спрятать комментарии"
+
+#: inc/metaboxes.php:49 inc/metaboxes.php:92
+msgid "Do not show comments on this page"
+msgstr "Не показывать комментарии на этой странице"
+
+#: inc/metaboxes.php:50 inc/metaboxes.php:93
+msgid "Hide sidebar"
+msgstr "Спрятать сайдбар"
+
+#: inc/metaboxes.php:50 inc/metaboxes.php:93
+msgid "Do not show sidebar on this page"
+msgstr "Не показывать на этой странице сайдбар"
+
+#: inc/metaboxes.php:51 inc/metaboxes.php:94
+msgid "Hide bottom menu"
+msgstr "Спрятать нижнее меню"
+
+#: inc/metaboxes.php:51 inc/metaboxes.php:94
+msgid "Do not show the bottom menu on this page"
+msgstr "Не показывать нижнее меню на этой странице"
+
+#: inc/metaboxes.php:52 inc/metaboxes.php:95
+msgid "Hide footer"
+msgstr "Спрятать подвал"
+
+#: inc/metaboxes.php:52 inc/metaboxes.php:95
+msgid "Do not show footer on this page"
+msgstr "Не показывать подвал на этой странице"
+
+#: inc/metaboxes.php:53 inc/metaboxes.php:96
+msgid "Content across the width"
+msgstr "Контент по всей ширине"
+
+#: inc/metaboxes.php:53 inc/metaboxes.php:96
+msgid "Make content across the entire width of the page without the sidebar"
+msgstr "Сделать контент по всей ширине страницы без сайдбара"
+
+#: inc/metaboxes.php:54 inc/metaboxes.php:97
+msgid "Site across the width"
+msgstr "Сайт по всей ширине"
+
+#: inc/metaboxes.php:54 inc/metaboxes.php:97
+msgid "Make the site across the width"
+msgstr "Сделать сайт по всей ширине"
+
+#: inc/metaboxes.php:55
+msgid "ID related posts"
+msgstr "ID похожих записей"
+
+#: inc/metaboxes.php:55
+msgid ""
+"Enter the ID of the posts separated by commas to display certain posts in "
+"related posts"
+msgstr ""
+"Укажите ID записей через запятую, для вывода определенных постов в похожих "
+"записях"
+
+#: inc/metaboxes.php:71
+msgid "Root: Page settings"
+msgstr "Root: Настройки страницы"
+
+#: inc/setup.php:57
+msgid "Top menu"
+msgstr "Меню в шапке"
+
+#: inc/setup.php:89 inc/setup.php:104
+msgid "Add widgets here."
+msgstr "Добавьте виджеты сюда."
+
+#: inc/template-functions.php:299
+msgid "Facebook profile link"
+msgstr "Ссылка на профиль в Facebook"
+
+#: inc/template-functions.php:300
+msgid "Vkontakte profile link"
+msgstr "Ссылка на профиль в ВКонтакте"
+
+#: inc/template-functions.php:301
+msgid "Twitter profile link"
+msgstr "Ссылка на профиль в Twitter"
+
+#: inc/template-functions.php:302
+msgid "Odnoklassniki profile link"
+msgstr "Ссылка на профиль в Одноклассники"
+
+#: inc/template-functions.php:303
+msgid "Telegram profile link"
+msgstr "Ссылка на профиль в Telegram"
+
+#: inc/template-functions.php:304
+msgid "Youtube profile link"
+msgstr "Ссылка на профиль YouTube"
+
+#: inc/template-functions.php:305
+msgid "Instagram profile link"
+msgstr "Ссылка на профиль в Instagram"
+
+#: inc/template-functions.php:306
+msgid "Tik Tok profile link"
+msgstr "Ссылка на профиль в Tik Tok"
+
+#: inc/template-functions.php:307
+msgid "Linkedin profile link"
+msgstr "Ссылка на профиль в LinkedIn"
+
+#: inc/template-functions.php:308
+msgid "Whatsapp profile link"
+msgstr "Ссылка на профиль в Whatsapp"
+
+#: inc/template-functions.php:309
+msgid "Viber profile link"
+msgstr "Ссылка на профиль в Viber"
+
+#: inc/template-functions.php:310
+msgid "Pinterest profile link"
+msgstr "Ссылка на профиль в Pinterest"
+
+#: inc/template-functions.php:311
+msgid "Yandex Zen profile link"
+msgstr "Ссылка на профиль в Яндекс Дзен"
+
+#: inc/thumbnails.php:14
+msgid "Рекомендуемый размер 770x330"
+msgstr ""
+
+#: inc/thumbnails.php:30
+msgid "Thumbnail settings"
+msgstr "Настройки миниатюры"
+
+#: inc/thumbnails.php:38
+#, php-format
+msgid ""
+"A thumbnail will be displayed on the page for the full width of the site. "
+"Recommended size %s"
+msgstr ""
+"На странице записи будет отображаться миниатюра на всю ширину сайта. "
+"Рекомендуемый размер %s"
+
+#: inc/thumbnails.php:39
+msgid "Big thumbnail"
+msgstr "Большая миниатюра"
+
+#: inc/widgets/widget-articles.php:14 inc/widgets/widget-articles.php:15
+msgid "Articles output"
+msgstr "Вывод статей"
+
+#: inc/widgets/widget-articles.php:202 inc/widgets/widget-social-links.php:38
+#: inc/widgets/widget-subscribe.php:41
+#: inc/widgets/widget-top-commentators.php:95
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/widgets/widget-articles.php:206
+msgid "Sorting"
+msgstr "Сортировка"
+
+#: inc/widgets/widget-articles.php:208
+msgid "Accidentally"
+msgstr "Случайно"
+
+#: inc/widgets/widget-articles.php:209
+msgid "By views (views)"
+msgstr "По просмотрам (views)"
+
+#: inc/widgets/widget-articles.php:211
+msgid "New on top"
+msgstr "Новые сверху"
+
+#: inc/widgets/widget-articles.php:215
+msgid "ID of posts separated by commas, if you need to display specific posts"
+msgstr "ID постов через запятую, если нужно вывести определенные посты"
+
+#: inc/widgets/widget-articles.php:219
+msgid ""
+"The ID of the category separated by commas, if you want to display the posts "
+"of certain category (add a minus sign before the category ID to exclude it)"
+msgstr ""
+"ID рубрик через запятую, если нужно вывести посты определенных рубрик "
+"(добавьте минус перед ID рубрики, чтобы её исключить)"
+
+#: inc/widgets/widget-articles.php:223
+msgid "Number of posts"
+msgstr "Количество постов"
+
+#: inc/widgets/widget-articles.php:227
+msgid "Number of days to show posts"
+msgstr "Количество дней, за которые показывать посты"
+
+#: inc/widgets/widget-articles.php:231
+msgid "Output"
+msgstr "Вывод"
+
+#: inc/widgets/widget-articles.php:233
+msgid "Normal"
+msgstr "Обычный"
+
+#: inc/widgets/widget-articles.php:234
+msgid "Compact"
+msgstr "Компактно"
+
+#: inc/widgets/widget-articles.php:243
+msgid "Hide description"
+msgstr "Скрыть описание"
+
+#: inc/widgets/widget-articles.php:247
+msgid "Hide category"
+msgstr "Скрыть рубрику"
+
+#: inc/widgets/widget-articles.php:251
+msgid "Hide comments count"
+msgstr "Скрыть кол-во комментариев"
+
+#: inc/widgets/widget-articles.php:255
+msgid "Hide views count"
+msgstr "Скрыть кол-во просмотров"
+
+#: inc/widgets/widget-social-links.php:14
+msgid "Social links"
+msgstr "Социальные сети"
+
+#: inc/widgets/widget-social-links.php:15
+msgid ""
+"Links to accounts in social. networks specified in Appearance - Configure - "
+"Modules - Social profiles"
+msgstr ""
+"Ссылки на аккаунты в соц. сетях, указанные в Внешний вид - Настроить - "
+"Модули - Соц. профили"
+
+#: inc/widgets/widget-subscribe.php:14
+msgid "Subscription"
+msgstr "Подписка"
+
+#: inc/widgets/widget-subscribe.php:15
+msgid "Update subscription form"
+msgstr "Форма подписки на обновления"
+
+#: inc/widgets/widget-subscribe.php:38
+msgid "You can read how to customize the subscription form here"
+msgstr "Как настроить форму подписки можете прочитать здесь"
+
+#: inc/widgets/widget-top-commentators.php:14
+#: inc/widgets/widget-top-commentators.php:15
+msgid "TOP commentators"
+msgstr "ТОП комментаторов"
+
+#: inc/widgets/widget-top-commentators.php:81
+msgid "You can be first"
+msgstr "Вы можете быть первым"
+
+#: inc/widgets/widget-top-commentators.php:100
+msgid "Period"
+msgstr "Период"
+
+#: inc/widgets/widget-top-commentators.php:102
+msgid "For all the time"
+msgstr "За все время"
+
+#: inc/widgets/widget-top-commentators.php:103
+msgid "Per month"
+msgstr "За месяц"
+
+#: inc/widgets/widget-top-commentators.php:108
+msgid "Count of commentators"
+msgstr "Количество комментаторов"
+
+#: inc/widgets/widgets.php:153
+msgid "CSS Classes"
+msgstr "CSS классы"
+
+#: node_modules/browser-sync/node_modules/yargs-parser/index.js:372
+#, javascript-format
+msgid "Argument unexpected for: %s"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs-parser/index.js:382
+#: node_modules/browser-sync/node_modules/yargs-parser/index.js:392
+#: node_modules/browser-sync/node_modules/yargs-parser/index.js:446
+#: node_modules/localtunnel/node_modules/yargs-parser/index.js:367
+#: node_modules/sass-graph/node_modules/yargs-parser/index.js:367
+#: node_modules/yargs-parser/index.js:302
+#, javascript-format
+msgid "Not enough arguments following: %s"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs-parser/index.js:591
+#: node_modules/localtunnel/node_modules/yargs-parser/index.js:541
+#: node_modules/sass-graph/node_modules/yargs-parser/index.js:541
+#: node_modules/yargs-parser/index.js:450
+#, javascript-format
+msgid "Invalid JSON config file: %s"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs-parser/index.js:941
+#, javascript-format
+msgid "Invalid configuration: %s, opts.count excludes opts.array."
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs-parser/index.js:944
+#, javascript-format
+msgid "Invalid configuration: %s, opts.count excludes opts.narg."
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:90
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:92
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:92
+msgid "Positionals:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:187
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:190
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:192
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:194
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:192
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:194
+msgid "command"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:198
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:203
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:203
+#: node_modules/yargs/lib/usage.js:169
+msgid "Commands:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:213
+msgid "default"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:215
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:225
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:225
+#: node_modules/yargs/lib/usage.js:179
+msgid "aliases:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:219
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:302
+#, javascript-format
+msgid "deprecated: %s"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:222
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:303
+msgid "deprecated"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:241
+msgid "Options:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:290
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:288
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:288
+#: node_modules/yargs/lib/usage.js:241
+msgid "boolean"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:292
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:289
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:289
+#: node_modules/yargs/lib/usage.js:242
+msgid "count"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:294
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:296
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:290
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:291
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:290
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:291
+#: node_modules/yargs/lib/usage.js:243 node_modules/yargs/lib/usage.js:244
+msgid "string"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:298
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:292
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:292
+#: node_modules/yargs/lib/usage.js:245
+msgid "array"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:300
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:293
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:293
+#: node_modules/yargs/lib/usage.js:246
+msgid "number"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:307
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:297
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:297
+#: node_modules/yargs/lib/usage.js:250
+msgid "required"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:308
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:298
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:298
+#: node_modules/yargs/lib/usage.js:251
+msgid "choices:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:321
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:317
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:317
+#: node_modules/yargs/lib/usage.js:270
+msgid "Examples:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:438
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:436
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:436
+#: node_modules/yargs/lib/usage.js:385
+msgid "generated-value"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:457
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:223
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:458
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:223
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:458
+#: node_modules/yargs/lib/usage.js:177 node_modules/yargs/lib/usage.js:407
+msgid "default:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/validation.js:155
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:147
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:147
+#: node_modules/yargs/lib/validation.js:185
+msgid "Invalid values:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/validation.js:157
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:150
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:150
+#: node_modules/yargs/lib/validation.js:188
+#, javascript-format
+msgid "Argument: %s, Given: %s, Choices: %s"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/validation.js:181
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:180
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:180
+#: node_modules/yargs/lib/validation.js:218
+#, javascript-format
+msgid "Argument check failed: %s"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/validation.js:248
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:256
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:256
+#: node_modules/yargs/lib/validation.js:283
+msgid "Implications failed:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/validation.js:284
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:295
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:295
+#: node_modules/yargs/lib/validation.js:313
+#, javascript-format
+msgid "Arguments %s and %s are mutually exclusive"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/validation.js:303
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:316
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:316
+#: node_modules/yargs/lib/validation.js:332
+#, javascript-format
+msgid "Did you mean %s?"
+msgstr ""
+
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:29
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:52
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:29
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:52
+#: node_modules/yargs/lib/validation.js:26
+#: node_modules/yargs/lib/validation.js:49
+#, javascript-format
+msgid "Not enough non-option arguments: got %s, need at least %s"
+msgstr ""
+
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:40
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:40
+#: node_modules/yargs/lib/validation.js:37
+#, javascript-format
+msgid "Too many non-option arguments: got %s, maximum of %s"
+msgstr ""
+
+#: search.php:27
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Поиск по запросу: %s"
+
+#: searchform.php:23
+msgid "Search"
+msgstr "Поиск"
+
+#: template-parts/author-box.php:39 template-parts/author-box.php:41
+msgid "author of the article"
+msgstr "автор статьи"
+
+#: template-parts/content-none.php:22
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: template-parts/content-none.php:29
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готовы добавить свою первую запись? <a href=\"%1$s\">Перейти к добавлению</"
+"a>."
+
+# @ _s
+#: template-parts/content-none.php:33
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, но ничего не соответствует условиям поиска. Пожалуйста, попробуйте "
+"еще раз с другими ключевыми словами."
+
+#: template-parts/content-none.php:37 template-parts/content-none.php:52
+msgid "Try to change search phrase"
+msgstr "Попробуйте изменить фразу для поиска"
+
+#: template-parts/content-none.php:48
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"К сожалению, нужная страница не найдена. Попробуйте воспользоваться поиском."
+
+#: template-parts/content-page.php:68 template-parts/content-single.php:91
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: template-parts/content-page.php:92
+msgid "Please share to your friends:"
+msgstr "Поделиться с друзьями:"
+
+#: template-parts/content-single.php:120
+#: template-parts/posts/content-card-one.php:78
+#: template-parts/posts/content-card-square.php:76
+#: template-parts/posts/content-card-without-micro.php:58
+#: template-parts/posts/content-card.php:58
+#: template-parts/posts/content-meta.php:48 template-parts/posts/content.php:59
+#: template-parts/widgets/widget-articles-compact.php:59
+#: template-parts/widgets/widget-articles-normal.php:61
+msgid "Views"
+msgstr "Просмотров"
+
+#: template-parts/post-meta.php:28
+msgid "Reading"
+msgstr "На чтение"
+
+#: template-parts/post-meta.php:28
+msgid "min"
+msgstr "мин"
+
+#: template-parts/post-meta.php:29
+msgid "Published by"
+msgstr "Опубликовано"
+
+#: template-parts/post-meta.php:30
+msgid "Modified by"
+msgstr "Обновлено"
+
+#: template-parts/post-meta.php:31 template-parts/posts/content-meta.php:34
+#: template-parts/posts/content.php:46
+msgid "Category"
+msgstr "Рубрика"
+
+#: template-parts/post-meta.php:32 template-parts/posts/content-meta.php:37
+#: template-parts/posts/content.php:49
+msgid "Author"
+msgstr "Автор"
+
+#: template-parts/posts/content-skin-1.php:43
+#: template-parts/posts/content.php:87
+msgid "Read more"
+msgstr "Читать полностью"
+
+#: template-parts/related-posts.php:221 yarpp-template-wpshop.php:16
+msgid "Related articles"
+msgstr "Вам также может быть интересно"
+
+#~ msgid "Only for the \"One post is big\" card"
+#~ msgstr "Только для карточки \"Одна запись большая\""
+
+#~ msgid "Yes, output if possible"
+#~ msgstr "Да, выводить если возможно"
+
+#~ msgid ""
+#~ "In this section, you can customize the appearance of postcards that are "
+#~ "displayed on the main, in headings, search, etc."
+#~ msgstr ""
+#~ "В данной секции Вы можете настроить внешний вид карточек постов, которые "
+#~ "выводятся на главной, в рубриках, поиске и т.д."
+
+#~ msgid "Name of the site"
+#~ msgstr "Название сайта"
+
+#~ msgid "Description of the site"
+#~ msgstr "Описание сайта"
+
+#~ msgid "Menu Link Font"
+#~ msgstr "Шрифт ссылок в меню"
+
+#~ msgid "Interline"
+#~ msgstr "Межстрочный"
+
+#~ msgid "In this section you can customize the fonts on the site"
+#~ msgstr "В данной секции Вы можете настроить шрифты на сайте"
+
+#~ msgid "Header Font"
+#~ msgstr "Шрифт заголовков"
+
+#~ msgid "Weight"
+#~ msgstr "Жирность"
+
+#~ msgid "Style"
+#~ msgstr "Стиль"
+
+#~ msgid "Main navigation width"
+#~ msgstr "Ширина основного меню"
+
+#~ msgid "Main navigation inner width"
+#~ msgstr "Ширина внутри основного меню"
+
+#~ msgid "Footer navigation width"
+#~ msgstr "Ширина навигации в подвале"
+
+#~ msgid "Footer navigation inner width"
+#~ msgstr "Ширина внутри навигации в подвале"
+
+#~ msgid ""
+#~ "In this section you can customize the main page, display posts, "
+#~ "additional text"
+#~ msgstr ""
+#~ "В данной секции Вы можете настроить главную страницу, вывод постов, "
+#~ "дополнительного текста"
+
+#~ msgid ""
+#~ "In this section, you can customize the appearance of the records, the "
+#~ "output of posts, additional text"
+#~ msgstr ""
+#~ "В данной секции Вы можете настроить внешний вид записей, вывод постов, "
+#~ "дополнительного текста"
+
+#~ msgid ""
+#~ "In this section, you can customize the appearance of pages, output "
+#~ "sidebars, a block of similar articles"
+#~ msgstr ""
+#~ "В данной секции Вы можете настроить внешний вид страниц, вывод сайдбара, "
+#~ "блока похожих статей"
+
+#~ msgid "In this section, you can set up posts archives"
+#~ msgstr "В данной секции Вы можете настроить архивы записей"
+
+#~ msgid ""
+#~ "In this section you can customize the display of links to your social "
+#~ "networks"
+#~ msgstr ""
+#~ "В данной секции Вы можете настроить вывод ссылок на Ваши социальные сети"
+
+#~ msgid "In this section, you can configure the up arrow"
+#~ msgstr "В данной секции Вы можете настроить стрелку вверх"
+
+#~ msgid "Vk"
+#~ msgstr "ВКонтакте"
+
+#~ msgid "Одноклассники"
+#~ msgstr "Одноклассники"
+
+#, fuzzy
+#~| msgid "Counters"
+#~ msgid "Count views"
+#~ msgstr "Счетчики"
+
+#, fuzzy
+#~| msgid "Yes, do"
+#~ msgid "Yes"
+#~ msgstr "Да, сделать"
+
+#~ msgid "Yes, open in new"
+#~ msgstr "Да, открыть в новом"
+
+#~ msgid "No, open in the same"
+#~ msgstr "Нет, открыть в этом"
+
+#~ msgid "Fixed menu?"
+#~ msgstr "Зафиксировать меню?"
+
+#~ msgid "Yes, fix"
+#~ msgstr "Да, зафиксировать"
+
+#~ msgid "Main navigation"
+#~ msgstr "Основное меню"
+
+#~ msgid "Footer navigation"
+#~ msgstr "Нижнее меню"
+
+#~ msgid "Show arrow up?"
+#~ msgstr "Выводить стрелку вверх?"
+
+#~ msgid "Up arrow background color"
+#~ msgstr "Фоновый цвет стрелки вверх"
+
+#~ msgid "Color up arrow icons"
+#~ msgstr "Цвет иконки стрелки вверх"
+
+#~ msgid "Show up arrow on mobile?"
+#~ msgstr "Выводить стрелку вверх на мобильном?"
+
+#~ msgid "The code will be displayed before the closing &lt;/head&gt; tag"
+#~ msgstr "Код будет выведен перед закрывающим &lt;/head&gt;"
+
+#~ msgid "The code will be displayed before the closing &lt;/body&gt; tag"
+#~ msgstr "Код будет выведен перед закрывающим &lt;/body&gt;"
+
+#~ msgid "Blocks and structure"
+#~ msgstr "Блоки и расположение"
+
+#~ msgid "Show comment date?"
+#~ msgstr "Выводить дату в комментариях?"
+
+#~ msgid "Show comment time?"
+#~ msgstr "Выводить время в комментариях?"
+
+#~ msgid "Display social buttons at the top?"
+#~ msgstr "Выводить наверху соц кнопки?"
+
+#~ msgid "Home text"
+#~ msgstr "Текст ссылки на главную страницу"
+
+#~ msgid "Default 1.5"
+#~ msgstr "По умолчанию 1.5"
+
+#~ msgid "Message subject"
+#~ msgstr "Тема сообщения"
+
+# @ _s
+#~ msgid "Most Used Categories"
+#~ msgstr "Популярные рубрики"
